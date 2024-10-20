@@ -1,0 +1,3 @@
+com.example.feedbackmanagementsystem.test
+style WhiteBackgroundDialogTheme
+style WhiteBackgroundTheme
