@@ -28,10 +28,6 @@
         "source": "C:\\Users\\ha\\.gradle\\daemon\\8.9\\com.example.feedbackmanagementsystem.app-main-45:\\xml\\backup_rules.xml"
     },
     {
-        "merged": "com.example.feedbackmanagementsystem.app-debug-43:/layout_activity_main.xml.flat",
-        "source": "com.example.feedbackmanagementsystem.app-main-45:/layout/activity_main.xml"
-    },
-    {
         "merged": "C:\\Users\\ha\\.gradle\\daemon\\8.9\\com.example.feedbackmanagementsystem.app-debug-43:\\layout_activity_main.xml.flat",
         "source": "C:\\Users\\ha\\.gradle\\daemon\\8.9\\com.example.feedbackmanagementsystem.app-main-45:\\layout\\activity_main.xml"
     },
@@ -40,28 +36,28 @@
         "source": "C:\\Users\\ha\\.gradle\\daemon\\8.9\\com.example.feedbackmanagementsystem.app-main-45:\\mipmap-xhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\ha\\.gradle\\daemon\\8.9\\com.example.feedbackmanagementsystem.app-debug-43:\\layout_dialog_add_edit_item.xml.flat",
-        "source": "C:\\Users\\ha\\.gradle\\daemon\\8.9\\com.example.feedbackmanagementsystem.app-main-45:\\layout\\dialog_add_edit_item.xml"
-    },
-    {
         "merged": "C:\\Users\\ha\\.gradle\\daemon\\8.9\\com.example.feedbackmanagementsystem.app-debug-43:\\layout_trainee_item.xml.flat",
         "source": "C:\\Users\\ha\\.gradle\\daemon\\8.9\\com.example.feedbackmanagementsystem.app-main-45:\\layout\\trainee_item.xml"
+    },
+    {
+        "merged": "com.example.feedbackmanagementsystem.app-debug-43:/layout_list_item.xml.flat",
+        "source": "com.example.feedbackmanagementsystem.app-main-45:/layout/list_item.xml"
     },
     {
         "merged": "C:\\Users\\ha\\.gradle\\daemon\\8.9\\com.example.feedbackmanagementsystem.app-debug-43:\\menu_menu_main.xml.flat",
         "source": "C:\\Users\\ha\\.gradle\\daemon\\8.9\\com.example.feedbackmanagementsystem.app-main-45:\\menu\\menu_main.xml"
     },
     {
-        "merged": "C:\\Users\\ha\\.gradle\\daemon\\8.9\\com.example.feedbackmanagementsystem.app-debug-43:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\ha\\.gradle\\daemon\\8.9\\com.example.feedbackmanagementsystem.app-main-45:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+        "merged": "C:\\Users\\ha\\.gradle\\daemon\\8.9\\com.example.feedbackmanagementsystem.app-debug-43:\\layout_fragment_second.xml.flat",
+        "source": "C:\\Users\\ha\\.gradle\\daemon\\8.9\\com.example.feedbackmanagementsystem.app-main-45:\\layout\\fragment_second.xml"
     },
     {
         "merged": "C:\\Users\\ha\\.gradle\\daemon\\8.9\\com.example.feedbackmanagementsystem.app-debug-43:\\xml_data_extraction_rules.xml.flat",
         "source": "C:\\Users\\ha\\.gradle\\daemon\\8.9\\com.example.feedbackmanagementsystem.app-main-45:\\xml\\data_extraction_rules.xml"
     },
     {
-        "merged": "C:\\Users\\ha\\.gradle\\daemon\\8.9\\com.example.feedbackmanagementsystem.app-debug-43:\\layout_fragment_second.xml.flat",
-        "source": "C:\\Users\\ha\\.gradle\\daemon\\8.9\\com.example.feedbackmanagementsystem.app-main-45:\\layout\\fragment_second.xml"
+        "merged": "C:\\Users\\ha\\.gradle\\daemon\\8.9\\com.example.feedbackmanagementsystem.app-debug-43:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\ha\\.gradle\\daemon\\8.9\\com.example.feedbackmanagementsystem.app-main-45:\\mipmap-xxhdpi\\ic_launcher_round.webp"
     },
     {
         "merged": "C:\\Users\\ha\\.gradle\\daemon\\8.9\\com.example.feedbackmanagementsystem.app-debug-43:\\drawable_ic_launcher_foreground.xml.flat",

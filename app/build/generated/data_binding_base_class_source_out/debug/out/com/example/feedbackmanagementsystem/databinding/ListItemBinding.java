@@ -26,17 +26,21 @@ public final class ListItemBinding implements ViewBinding {
   public final TextView itemGenderValue;
 
   @NonNull
+  public final TextView itemIdValue;
+
+  @NonNull
   public final TextView itemNameValue;
 
   @NonNull
   public final TextView itemPhoneValue;
 
   private ListItemBinding(@NonNull LinearLayout rootView, @NonNull TextView itemEmailValue,
-      @NonNull TextView itemGenderValue, @NonNull TextView itemNameValue,
-      @NonNull TextView itemPhoneValue) {
+      @NonNull TextView itemGenderValue, @NonNull TextView itemIdValue,
+      @NonNull TextView itemNameValue, @NonNull TextView itemPhoneValue) {
     this.rootView = rootView;
     this.itemEmailValue = itemEmailValue;
     this.itemGenderValue = itemGenderValue;
+    this.itemIdValue = itemIdValue;
     this.itemNameValue = itemNameValue;
     this.itemPhoneValue = itemPhoneValue;
   }
@@ -80,6 +84,12 @@ public final class ListItemBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.item_id_value;
+      TextView itemIdValue = ViewBindings.findChildViewById(rootView, id);
+      if (itemIdValue == null) {
+        break missingId;
+      }
+
       id = R.id.item_name_value;
       TextView itemNameValue = ViewBindings.findChildViewById(rootView, id);
       if (itemNameValue == null) {
@@ -93,7 +103,7 @@ public final class ListItemBinding implements ViewBinding {
       }
 
       return new ListItemBinding((LinearLayout) rootView, itemEmailValue, itemGenderValue,
-          itemNameValue, itemPhoneValue);
+          itemIdValue, itemNameValue, itemPhoneValue);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
