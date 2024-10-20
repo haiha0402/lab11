@@ -8,10 +8,6 @@
         "source": "C:\\Users\\ha\\.gradle\\daemon\\8.9\\com.example.feedbackmanagementsystem.app-main-45:\\layout\\activity_main.xml"
     },
     {
-        "merged": "C:\\Users\\ha\\.gradle\\daemon\\8.9\\com.example.feedbackmanagementsystem.app-mergeDebugResources-42:\\layout\\dialog_add_edit_item.xml",
-        "source": "C:\\Users\\ha\\.gradle\\daemon\\8.9\\com.example.feedbackmanagementsystem.app-main-45:\\layout\\dialog_add_edit_item.xml"
-    },
-    {
         "merged": "C:\\Users\\ha\\.gradle\\daemon\\8.9\\com.example.feedbackmanagementsystem.app-mergeDebugResources-42:\\layout\\content_main.xml",
         "source": "C:\\Users\\ha\\.gradle\\daemon\\8.9\\com.example.feedbackmanagementsystem.app-main-45:\\layout\\content_main.xml"
     },
@@ -20,15 +16,15 @@
         "source": "C:\\Users\\ha\\.gradle\\daemon\\8.9\\com.example.feedbackmanagementsystem.app-main-45:\\layout\\trainee_item.xml"
     },
     {
+        "merged": "com.example.feedbackmanagementsystem.app-mergeDebugResources-42:/layout/list_item.xml",
+        "source": "com.example.feedbackmanagementsystem.app-main-45:/layout/list_item.xml"
+    },
+    {
         "merged": "C:\\Users\\ha\\.gradle\\daemon\\8.9\\com.example.feedbackmanagementsystem.app-mergeDebugResources-42:\\layout\\fragment_second.xml",
         "source": "C:\\Users\\ha\\.gradle\\daemon\\8.9\\com.example.feedbackmanagementsystem.app-main-45:\\layout\\fragment_second.xml"
     },
     {
         "merged": "C:\\Users\\ha\\.gradle\\daemon\\8.9\\com.example.feedbackmanagementsystem.app-mergeDebugResources-42:\\layout\\fragment_first.xml",
         "source": "C:\\Users\\ha\\.gradle\\daemon\\8.9\\com.example.feedbackmanagementsystem.app-main-45:\\layout\\fragment_first.xml"
-    },
-    {
-        "merged": "com.example.feedbackmanagementsystem.app-mergeDebugResources-42:/layout/activity_main.xml",
-        "source": "com.example.feedbackmanagementsystem.app-main-45:/layout/activity_main.xml"
     }
 ]

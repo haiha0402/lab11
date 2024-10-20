@@ -5,6 +5,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
+import android.widget.Button;
 import android.widget.TextView;
 
 import java.util.ArrayList;
@@ -13,7 +14,6 @@ public class CustomAdapter extends BaseAdapter {
 
     private Context context;
     private ArrayList<Trainee> trainees;
-
     public CustomAdapter(Context context, ArrayList<Trainee> trainees) {
         this.context = context;
         this.trainees = trainees;
@@ -34,18 +34,21 @@ public class CustomAdapter extends BaseAdapter {
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
         if (convertView == null) {
-            convertView = LayoutInflater.from(context).inflate(R.layout.trainee_item, parent, false);
+            convertView = LayoutInflater.from(context).inflate(R.layout.list_item, parent, false);
         }
-        TextView name = convertView.findViewById(R.id.trainee_name);
-        TextView email = convertView.findViewById(R.id.trainee_email);
-        TextView phone = convertView.findViewById(R.id.trainee_phone);
-        TextView gender = convertView.findViewById(R.id.trainee_gender);
+        TextView id = convertView.findViewById(R.id.item_id_value);
+        TextView name = convertView.findViewById(R.id.item_name_value);
+        TextView email = convertView.findViewById(R.id.item_email_value);
+        TextView phone = convertView.findViewById(R.id.item_phone_value);
+        TextView gender = convertView.findViewById(R.id.item_gender_value);
+
 
         Trainee trainee = trainees.get(position);
         name.setText(trainee.getName());
         email.setText(trainee.getEmail());
         phone.setText(trainee.getPhone());
         gender.setText(trainee.getGender());
+
         return convertView;
     }
 }

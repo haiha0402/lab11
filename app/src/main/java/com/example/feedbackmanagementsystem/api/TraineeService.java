@@ -20,9 +20,9 @@ public interface TraineeService {
     Call<Trainee> createTrainee(@Body Trainee trainee);
 
     @PUT(TRAINEES + "/{id}")
-    Call<Trainee> updateTrainee(@Path("id") int id, @Body Trainee trainee);
+    Call<Trainee> updateTrainee(@Path("id") long id, @Body Trainee trainee);
 
     // DELETE request to delete a trainee by ID
     @DELETE(TRAINEES + "/{id}")
-    Call<Void> deleteTrainee(@Path("id") int id);
+    Call<Void> deleteTrainee(@Path("id") long id);
 }
